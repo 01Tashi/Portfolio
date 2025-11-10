@@ -4,6 +4,13 @@
 
 .kleur-2 {
   background-color: #39393A;
+  margin-top: -3rem;
+  z-index: 2;
+  position: relative;
+}
+
+.kleur-3{
+  background-color: #F7F0F5;
 }
 
 
@@ -15,6 +22,11 @@
 .projecten {
   height: 250px;
   width: 250px;
+}
+
+.projecten-2 {
+  height: 350px;
+  width: 350px;
 }
 
 .rond-hoek {
@@ -33,6 +45,7 @@ h1 {
 
 .naam-titel{
   font-size: 15rem;
+  color: white;
 }
 
 @media (max-width: 767.98px) {
