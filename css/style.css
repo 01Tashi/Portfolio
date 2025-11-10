@@ -1,0 +1,55 @@
+.text-teal {
+  color: #008080;
+}
+
+.kleur-2 {
+  background-color: #39393A;
+}
+
+
+.actief {
+  text-decoration: underline;
+}
+
+
+.projecten {
+  height: 250px;
+  width: 250px;
+}
+
+.rond-hoek {
+  border-top-left-radius: 3rem;
+  border-top-right-radius: 3rem;
+}
+
+
+h1 {
+  font-family: 'Impact', sans-serif;
+}
+
+.nav-link {
+  font-family: 'Impact', sans-serif;
+}
+
+.naam-titel{
+  font-size: 15rem;
+}
+
+@media (max-width: 767.98px) {
+  .naam-titel {
+    font-size: 6rem;
+  }
+}
+
+.achtergrond {
+  background-image: url('../assets/wereld.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 6rem 0;
+  min-height: 60vh; /* of 70vh voor meer ruimte */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
